@@ -58,11 +58,23 @@ body {
   }
 }
 
+.title_box {
+ margin-top: 3.5rem;
+}
+
+.subtitles {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+   
+}
+
 .subtitle {
-  margin-top: 3.5rem;
+
   font-size: 20px;
   font-weight: 400;
   color: $text-dark;
+  text-align: center;
   strong {
     color: $primary;
   }

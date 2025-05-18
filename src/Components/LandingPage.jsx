@@ -36,9 +36,14 @@ export default function LandingPage() {
             <FiCalendar className="calendarIcon" />
             <span className="calendarText">Boshlanish vaqti: 3–4–5 iyun | 20:00</span>
           </div>
-          <p className="subtitle">
-            Iman Akhmedovna 3 kunlik <strong>bepul</strong> masterklass
+        <div className="title_box">
+            <p className="subtitles">
+            <span></span>Iman Akhmedovna 
           </p>
+          <p className="subtitle">
+            <span></span>3 kunlik <strong>bepul</strong> masterklass
+          </p>
+        </div>
 
           {/* Мобильная картинка + кнопка */}
           <div className="mobile__img">
