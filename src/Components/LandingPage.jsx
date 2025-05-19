@@ -1,7 +1,8 @@
-                                // src/components/LandingPage.jsx
+// src/components/LandingPage.jsx
 
 import React, { useState, useEffect } from "react";
 import { FiCalendar } from "react-icons/fi";
+import { FcGraduationCap } from "react-icons/fc";
 import Modal from "./Modal";
 import { mobileBg } from "../utils/getImg";
 
@@ -33,19 +34,32 @@ export default function LandingPage() {
         <div className="content">
           {/* Календарь */}
           <div className="calendar">
-            <FiCalendar className="calendarIcon" />
-            <span className="calendarText">Boshlanish vaqti: 3–4–5 iyun | 20:00</span>
-          </div>
-        <div className="title_box">
-            <p className="subtitles">
-            <span></span>Iman Akhmedovna 
-          </p>
-          <p className="subtitle">
-            <span></span>3 kunlik <strong>bepul</strong> masterklass
-          </p>
-        </div>
+            <div className="calendar__left_box">
+              <FiCalendar className="calendarIcon" />
+              <div className="calendar__left_text_box">
+                <span className="calendarText">Kurs sanasi:</span>
+                <span className="calendarText">3–4–5 iyun</span>
+              </div>
+            </div>
 
-          {/* Мобильная картинка + кнопка */}
+            <div className="calendar__left_box">
+              <FcGraduationCap className="calendarIcon" />
+              <div className="calendar__left_text_box">
+                <span className="calendarText">Boshlanish vaqti:</span>
+                <span className="calendarText">20:00</span>
+              </div>
+            </div>
+          </div>
+          <div className="title__mobile_box">
+            <h1 className="title__mobile_title">
+              Erni suyukli erkatoyiga aylanib - sevgi, sovg`a va baraka to`la`
+              oila sohibasi bo`ling!
+            </h1>
+            <h2 className="title__mobile_text">
+              Bu bilimlarni Iman Akhmedovnaning 3 kunlik master klassida
+              o’rganib oling.
+            </h2>
+          </div>
           <div className="mobile__img">
             <img src={mobileBg} alt="" className="avatar" />
             <div className="btn__box">
@@ -53,7 +67,6 @@ export default function LandingPage() {
                 BEPUL QATNASHISH
               </button>
               <div className="timerCard_btn">
-                
                 <div className="timer">
                   <div className="timeBlock">
                     <div className="timeValue">{mm}</div>
@@ -66,17 +79,25 @@ export default function LandingPage() {
                 </div>
               </div>
               <p className="timerText">
-                  Hozirroq ro‘yxatdan o‘ting! Joylar cheklangan!
-                </p>
+                Hozirroq ro‘yxatdan o‘ting! Joylar cheklangan!
+              </p>
             </div>
           </div>
+          <div className="title_box"></div>
+
+          {/* Мобильная картинка + кнопка */}
 
           {/* Основная колонка */}
           <div className="left">
-            <h1 className="title">
-              Nikoh yo‘lida to‘siqlar bormi? <br />
-              Yoki oilangizda sovuqlik sezilyaptimi?
-            </h1>
+            <h2 className="title">
+               Erni suyukli erkatoyiga aylanib - sevgi, sovg`a va baraka to`la`
+              oila sohibasi bo`ling!
+            </h2>
+            <h2 className="title">
+              Bu bilimlarni Iman Akhmedovnaning 3 kunlik master klassida
+              o’rganib oling.
+            </h2>
+
             <p className="lead">
               Master klass- 3 kun yopiq telegram kanalda bo’ladi.
               <br />
@@ -104,7 +125,6 @@ export default function LandingPage() {
                 BEPUL QATNASHISH
               </button>
               <div className="timerCard">
-               
                 <div className="timer">
                   <div className="timeBlock">
                     <div className="timeValue">{mm}</div>
@@ -116,9 +136,9 @@ export default function LandingPage() {
                   </div>
                 </div>
               </div>
-               <p className="timerText">
-                  Hozirroq ro‘yxatdan o‘ting! Joylar cheklangan!
-                </p>
+              <p className="timerText">
+                Hozirroq ro‘yxatdan o‘ting! Joylar cheklangan!
+              </p>
             </div>
           </div>
 
