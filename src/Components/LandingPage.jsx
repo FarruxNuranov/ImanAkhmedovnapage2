@@ -52,7 +52,7 @@ export default function LandingPage() {
           </div>
           <div className="title__mobile_box">
             <h1 className="title__mobile_title">
-              Erni suyukli erkatoyiga aylanib - sevgi, sovg`a va baraka to`la`
+              Erni suyukli erkatoyiga aylanib - sevgi, sovg`a va baraka to`la
               oila sohibasi bo`ling!
             </h1>
             <h2 className="title__mobile_text">
@@ -78,9 +78,7 @@ export default function LandingPage() {
                   </div>
                 </div>
               </div>
-              <p className="timerText">
-                Hozirroq ro‘yxatdan o‘ting! Joylar cheklangan!
-              </p>
+             
             </div>
           </div>
           <div className="title_box"></div>
@@ -98,11 +96,7 @@ export default function LandingPage() {
               o’rganib oling.
             </h2>
 
-            <p className="lead">
-              Master klass- 3 kun yopiq telegram kanalda bo’ladi.
-              <br />
-              Ro‘yxatdan o‘ting — (<strong>1 daqiqa ichida</strong> BEPUL)
-            </p>
+            
             <p className="desc">
               3 kechalik BEPUL masterklassda quyidagilarni bilib olasiz:
             </p>
